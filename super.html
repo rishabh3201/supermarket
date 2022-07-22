@@ -3,8 +3,104 @@
 	<meta name="viewport" content ="width=device-width,intial-scale=1.0">
 	<title>supermarket</title>
 	<link rel="stylesheet" href="super.css">
+	
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src=" https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js">
+
+    </script>
+	
+	
 </head>
 <body>
+	
+<div class="btn">
+      <span class="fas fa-bars"></span>
+    </div>
+    <nav class="sidebar">
+      <div class="text">side menu</div>
+
+
+      <ul>
+        <li><a href="#">Home </a></li>
+          <li><a href="#">categories </a></li>
+            <li><a href="#">wishlist </a></li>
+              <li><a href="#">offers </a></li>
+                <li><a href="#">orders </a></li>
+                  <li><a href="#">Account </a></li>
+          <li><a href="#">Settings </a></li>
+            <li><a href="#">Help </a></li>
+              <li><a href="#">about </a></li>
+              <li><a href="#">contact us</a></li>
+      </ul>
+    </nav>
+<script>
+$('.btn').click(function(){
+  $(this).toggleClass("click");
+  $('.sidebar').toggleClass("show");
+});
+
+</script>
+
+
+
+    <div class="wrapper">
+      <div class="search-input">
+        <a href="" target="_blank" hidden></a>
+        <input type="text" placeholder="Type to search..">
+        <div class="icon"><i class="fas fa-search"></i></div>
+      </div>
+    </div>
+
+<div class="sliders">
+  <div class="slides">
+    <input type="radio" name="radio-btn" id ="radio1">
+    <input type="radio" name="radio-btn" id ="radio2">
+    <input type="radio" name="radio-btn" id ="radio3">
+    <input type="radio" name="radio-btn" id ="radio4">
+    <div class="slide first">
+      <img src="C:\Users\HP\Desktop\grocery\groc1.jpg" alt="">
+
+    </div>
+    <div class="slide second">
+      <img src="C:\Users\HP\Desktop\grocery\bron.jpg" alt="">
+
+    </div>
+    <div class="slide third">
+      <img src="C:\Users\HP\Desktop\grocery\pasta.jpg" alt="">
+
+    </div>
+    <div class="slide fourth">
+      <img src="C:\Users\HP\Desktop\grocery\fuits.jpg" alt="">
+
+    </div>
+    <div class="navi">
+      <div class="auto btn1">  </div>
+        <div class="auto btn2">  </div>
+          <div class="auto btn3">  </div>
+            <div class="auto btn4">  </div>
+
+    </div>
+  </div>
+  <div class="nvim">
+    <label for="radio1"class="manualbtn"></label>
+    <label for="radio2"class="manualbtn"></label>
+    <label for="radio3"class="manualbtn"></label>
+    <label for="radio4"class="manualbtn"></label>
+
+  </div>
+</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<footer>
 		<div class="footer">
 			<div class="footer-container">
