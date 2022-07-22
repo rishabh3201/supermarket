@@ -4,6 +4,169 @@
 	box-sizing: border-box;
 	font-family: 'Poppins',sans-serif;
 }*/
+
+
+.btn{
+  position:absolute;
+  top: 15px;
+  left: 45px;
+  width: 45px;
+  text-align: center;
+  background: #1b1b1b;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: left 0.4s ease;
+
+}
+.btn.click{
+  left: 260px;
+
+}
+.btn span{
+  color: white;
+  font-size: 28px;
+  line-height: 45px;
+
+
+}
+.btn.click span:before{
+  content: '\f00d';
+
+}
+.sidebar{
+  position:fixed;
+
+  width: 200px;
+  left:-250px;
+  height:100%
+  background:#1b1b1b;
+transition: left 0.4s ease;
+}
+.sidebar.show{
+  left: 0px;
+
+}
+.sidebar .text{
+  color:white;
+  font-size:25px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: center;
+  background: #1e1e1e;
+  letter-spacing: 1px;
+
+}
+nav ul{
+  background: #1b1b1b;
+  height: 100%;
+  width: 100%;
+  list-style:none;
+
+}
+nav ul li{
+  line-height: 60px;
+  border-bottom: 3px solid rgba(255,255,255,0.1);
+
+}
+
+nav ul li:last-child{
+  border-bottom: 3px solid red;
+}
+nav ul li a{
+  color:white;
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 40px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+border-left: 3px solid transparent;
+
+}
+
+nav ul li a:hover{
+  color: cyan;
+  background: #1e1e1e;
+  border-left-color:cyan;
+}
+
+
+.slider{
+
+  width: 300px;
+  height:200px;
+  border-radius: 20px;
+
+}
+.slides{
+padding: 100px 0 0 0;
+  width: 1000px;
+  height:500px;
+  margin-left: 100px;
+
+  display: flex;
+  overflow: hidden;
+}
+
+.slides input{
+  display: none;
+
+}
+.slide{
+  width: 100%;
+  transition: 2s;
+
+}
+.slide img{
+  width: 1000px;
+  height: 200px;
+
+}
+
+.nvim{
+  position: absolute;
+   width: 1000px;
+   margin-top:  -250px;
+   display:flex;
+   justify-content:center;
+
+
+}
+.manualbtn{
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+
+}
+.manualbtn:not(:last-child){
+  margin-right: 50px;
+
+}
+.manualbtn:hover{
+  background: #40D3DC;
+
+}
+#radio1:checked ~ .first{
+  margin-left: 0;
+
+}
+#radio2:checked ~ .first{
+  margin-left: -100%;
+
+}
+#radio3:checked ~ .first{
+  margin-left: -205%;
+
+}
+#radio4:checked ~ .first{
+  margin-left: -300%;
+
+}
+
+
+
 .footer{
 	padding-top: 50px;
 	background: #B8171A;
