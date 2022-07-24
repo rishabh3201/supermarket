@@ -4,47 +4,156 @@
 	<title>supermarket</title>
 	<link rel="stylesheet" href="super.css">
 	
-
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-	<meta charset="UTF-8">
-	
-	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-	
-
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	 
 	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <script src=" https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<meta charset="UTF-8">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 
     </script>
-
 	
 	
 </head>
 <body>
+	<br>
+	<div class="slider">
+     <div class="wrapper">
+           <div class="search-input">
+             <a href="" target="_blank" hidden></a>
+             <input type="text" placeholder="Type to search..">
 
-	<header class="text-gray-600 body-font">
-		<div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-		  <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-			  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-			</svg>
-			<span class="ml-3 text-xl">Crony supermarket</span>
-		  </a>
-		  <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-			<a class="mr-5 hover:text-gray-900">Home</a>
-			<a class="mr-5 hover:text-gray-900">Services</a>
-			<a class="mr-5 hover:text-gray-900">About us</a>
-			<a class="mr-5 hover:text-gray-900">Contact</a>
-		  </nav>
-		  <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Sign In
-			<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-			  <path d="M5 12h14M12 5l7 7-7 7"></path>
-			</svg>
-		  </button>
-		</div>
-	  </header>
+             <div class="icon"><i class="fas fa-search"></i></div>
+           </div>
+         </div>
+     <div class="slide active">
+       <img src="excel.jpg" alt="">
+       <div class="info">
+       </div>
+     </div>
+     <div class="slide">
+       <img src="fortunee.jpg" alt="">
+       <div class="info">
+       </div>
+     </div>
+     <div class="slide">
+       <img src="syrup.jpg" alt="">
+       <div class="info">
+        </div>
+     </div>
+     <div class="slide">
+       <img src="dovess.webp" alt="">
+       <div class="info">
+       </div>
+     </div>
+     <div class="slide">
+       <img src="Website_Banner.jpg" alt="">
+       <div class="info">
+        </div>
+     </div>
+     <div class="navigation">
+       <i class="fas fa-chevron-left prev-btn"></i>
+       <i class="fas fa-chevron-right next-btn"></i>
+     </div>
+     <div class="navigation-visibility">
+       <div class="slide-icon active"></div>
+       <div class="slide-icon"></div>
+       <div class="slide-icon"></div>
+       <div class="slide-icon"></div>
+       <div class="slide-icon"></div>
+     </div>
+   </div>
+
+   <div class="wrapper hover_collapse">
+   	<div class="top_navbar">
+   		
+   		<div class="menu">
+
+
+   			<div class="hamburger">
+   				<i class="fas fa-bars"></i>
+   			</div>
+
+			   <header class="text-gray-600 body-font">
+				<div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+				  
+				  <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+					<a class="mr-5 hover:text-gray-900">Home</a>
+					<a class="mr-5 hover:text-gray-900">Services</a>
+					<a class="mr-5 hover:text-gray-900">About us</a>
+					<a class="mr-5 hover:text-gray-900">Contact</a>
+				  </nav>
+				  <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Sign In
+					<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+					  <path d="M5 12h14M12 5l7 7-7 7"></path>
+					</svg>
+				  </button>
+				</div>
+			  </header>
+   			<div class="profile_wrap">
+
+   			</div>
+   		</div>
+   	</div>
+
+   	<div class="sidebar">
+   		<div class="sidebar_inner">
+   		<ul>
+   			<li>
+   				<a href="#">
+   					<span class="icon"><i class="fas fa-home"></i></span>
+   					<span class="text">Home</span>
+   				</a>
+   			</li>
+   			<li>
+   				<a href="#">
+   					<span class="icon"><i class="fas fa-list-alt"></i></span>
+   					<span class="text">Categories</span>
+   				</a>
+   			</li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-gift"></i></span>
+            <span class="text">Offers</span>
+          </a>
+        </li>
+   			<li>
+   				<a href="#">
+   					<span class="icon"><i class="far fa-heart"></i></span>
+   					<span class="text">wishlist</span>
+   				</a>
+   			</li>
+   			<li>
+   				<a href="#">
+   					<span class="icon"><i class="fas fa-user"></i></span>
+   					<span class="text">Account</span>
+   				</a>
+   			</li>
+   			<li>
+   				<a href="#">
+   					<span class="icon"><i class="fas fa-cog"></i></span>
+   					<span class="text">Settings</span>
+   				</a>
+   			</li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-hands-helping"></i></span>
+            <span class="text">Help</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-address-book"></i></span>
+            <span class="text">contact us</span>
+          </a>
+        </li>
+   		</ul>
+   		</div>
+   	</div>
+
+
+
+   <script src="script.js"></script>
+<script src="scripts.js"></script><br>
 	<section class="text-gray-600 body-font">
 		<div class="container px-5 py-24 mx-auto">
 		  <div class="flex flex-wrap -m-4">
@@ -136,167 +245,11 @@
 			</div>
 		  </div>
 		</div>
-	  </section>
-<div class="btn">
-      <span class="fas fa-bars"></span>
-    </div>
-    <nav class="sidebar">
-      <div class="text">side menu</div>
+	  </section><br>
 
-
-      <ul>
-        <li><a href="#">Home </a></li>
-          <li><a href="#">categories </a></li>
-            <li><a href="#">wishlist </a></li>
-              <li><a href="#">offers </a></li>
-                <li><a href="#">orders </a></li>
-                  <li><a href="#">Account </a></li>
-          <li><a href="#">Settings </a></li>
-            <li><a href="#">Help </a></li>
-              <li><a href="about.html">about </a></li>
-              <li><a href="#">contact us</a></li>
-      </ul>
-    </nav>
-<script>
-$('.btn').click(function(){
-  $(this).toggleClass("click");
-  $('.sidebar').toggleClass("show");
-});
-
-</script>
-
-
-
-
-<div class="slider">
-     <div class="wrapper">
-           <div class="search-input">
-             <a href="" target="_blank" hidden></a>
-             <input type="text" placeholder="Type to search..">
-
-             <div class="icon"><i class="fas fa-search"></i></div>
-           </div>
-         </div>
-     <div class="slide active">
-       <img src="C:\Users\HP\Desktop\grocery\excel.jpg" alt="">
-       <div class="info">
-       </div>
-     </div>
-     <div class="slide">
-       <img src="C:\Users\HP\Desktop\grocery\fortunee.jpg" alt="">
-       <div class="info">
-       </div>
-     </div>
-     <div class="slide">
-       <img src="C:\Users\HP\Desktop\grocery\syrup.jpg" alt="">
-       <div class="info">
-        </div>
-     </div>
-     <div class="slide">
-       <img src="C:\Users\HP\Desktop\grocery\dovess.webp" alt="">
-       <div class="info">
-       </div>
-     </div>
-     <div class="slide">
-       <img src="Website_Banner.jpg" alt="">
-       <div class="info">
-        </div>
-     </div>
-     <div class="navigation">
-       <i class="fas fa-chevron-left prev-btn"></i>
-       <i class="fas fa-chevron-right next-btn"></i>
-     </div>
-     <div class="navigation-visibility">
-       <div class="slide-icon active"></div>
-       <div class="slide-icon"></div>
-       <div class="slide-icon"></div>
-       <div class="slide-icon"></div>
-       <div class="slide-icon"></div>
-     </div>
-   </div>
-
-   <div class="wrapper hover_collapse">
-   	<div class="top_navbar">
-   		<div class="logo">crony <span>SupMarket</span></div>
-   		<div class="menu">
-   			<div class="hamburger">
-   				<i class="fas fa-bars"></i>
-   			</div>
-   			<div class="profile_wrap">
-
-   			</div>
-   		</div>
-   	</div>
-
-   	<div class="sidebar">
-   		<div class="sidebar_inner">
-   		<ul>
-   			<li>
-   				<a href="#">
-   					<span class="icon"><i class="fas fa-home"></i></span>
-   					<span class="text">Home</span>
-   				</a>
-   			</li>
-   			<li>
-   				<a href="#">
-   					<span class="icon"><i class="fas fa-list-alt"></i></span>
-   					<span class="text">Categories</span>
-   				</a>
-   			</li>
-        <li>
-          <a href="#">
-            <span class="icon"><i class="fas fa-gift"></i></span>
-            <span class="text">Offers</span>
-          </a>
-        </li>
-   			<li>
-   				<a href="#">
-   					<span class="icon"><i class="far fa-heart"></i></span>
-   					<span class="text">wishlist</span>
-   				</a>
-   			</li>
-   			<li>
-   				<a href="#">
-   					<span class="icon"><i class="fas fa-user"></i></span>
-   					<span class="text">Account</span>
-   				</a>
-   			</li>
-   			<li>
-   				<a href="#">
-   					<span class="icon"><i class="fas fa-cog"></i></span>
-   					<span class="text">Settings</span>
-   				</a>
-   			</li>
-        <li>
-          <a href="#">
-            <span class="icon"><i class="fas fa-hands-helping"></i></span>
-            <span class="text">Help</span>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span class="icon"><i class="fas fa-address-book"></i></span>
-            <span class="text">contact us</span>
-          </a>
-        </li>
-   		</ul>
-   		</div>
-   	</div>
-
-
-
-   <script src="script.js"></script>
-
-<script src="scripts.js"></script>
 	
 	
-	
-	
-	
-	
-	
-	
-	<footer>
+	  <footer>
 		<div class="footer">
 			<div class="footer-container">
 				<div class= "footer-content">
@@ -330,4 +283,5 @@ $('.btn').click(function(){
 	</footer>
 
 
-</body>
+
+</body> 

@@ -1,4 +1,4 @@
-/**{
+/* *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -7,6 +7,8 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;600&display=swap');
+
+
 
 *{
 	font-family: 'Baloo Paaji 2', cursive;
@@ -95,11 +97,11 @@ body{
 }
 
 .sidebar{
-	position: fixed;
+	position: absolute;
 	top: 60px;
 	left: 0;
 	width: 250px;
-	height: 100%;
+	height: 57%;
 	background: #005faf;
 }
 
@@ -165,7 +167,7 @@ body{
 
 .wrapper{
 
-  max-width: 450px;
+  max-width: 300px;
   margin: 60px auto;
 }
 
@@ -336,31 +338,37 @@ padding-bottom: 200px;
 
 
 
-.footer{
-	padding-top: 50px;
+ .footer{
+	position: relative;
+	padding-top: 200px;
+	right: 600px;
 	background: #B8171A;
-	margin-top: 60px ;
+	margin-top: 120px ;
 	color: #fff;
+	width: 1500px;
 }
 .footer-container{
-	margin: 0% 6%!important;
+	width: 1000px;
 }
 .footer-content{
+	
 	display: flex;
 	justify-content: space-between;
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
-.footer-logo{
-}
 .footer-logo>img{
+position: relative;
 	width: 333px;
+	bottom: 100px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #fff;
 	cursor: pointer;
 }
 
 .footer-links{
+	position: relative;
+	bottom: 70px;
 	margin: 30px;
 	text-align: left;
 	padding-left: 24px;
@@ -388,15 +396,18 @@ ul{
 }
 
 .footer-get{
-	
+	position: relative;
+	left: 400px;
 
 }
 .footer-get h1{
+	
 	font-style: normal;
 	font-weight: 900;
 	font-size: 24px;
 	margin-bottom: 16px;
 	line-height: 38px;
+	
 }
 .social-links{
 	display: flex;
@@ -405,7 +416,9 @@ ul{
 	width: 150px;
 }
 .footer-bottom-text{
+position: relative;
+left: 300px;
 	text-align: center;
 	padding: 20px;
 	
-}
+} 
