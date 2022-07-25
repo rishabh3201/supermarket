@@ -19,154 +19,13 @@
 	text-decoration: none;
 }
 
-a{
-	text-decoration: none;
-  color: #555;
-  }
-  p{
-	color:#555;
-  }
-  .container{
-	max-width: 1300px;
-	margin: auto;
-	padding-left: 25px;
-	padding-right: 25px;
   
-  }
-  
-  .row{
-  display:flex;
-  align-items:center;
-  flex-wrap:wrap;
-  justify-content: space-around;
-  }
-  .col-2{
-	flex-basis: 50%;
-	min-width: 300px;
-  }
-  .col-2 img{
-  
-	max-width: 150%;
-	padding: 80px ;
-	padding-left: 250px;
-  }
-  .col-2 h1{
-  font-size: 50px;
-  line-height: 60px;
-  margin: 25px 0;
-  }
-  .btn{
-	display: inline-block;
-	background: #ff523b;
-	color:#fff;
-	padding: 8px 30px ;
-	margin :30px 0;
-	border-radius: 30px;
-	transition: background 0.5s;
-  }
-  .btn:hover{
-	background: #563434;
-  }
-  .header{
-	background: radial-gradient(#fff,#ffd6d5);
-  }
-  .header .row{
-	margin-top: 90px;
-  
-  }
-  .categories{
-	margin: 70px 0;
-  
-  }
-  .col-3{
-	flex: 30%;
-	min-width: 250px;
-	margin-bottom: 30px;
-  }
-  .col-3 img{
-	width: 90%;
-  }
-  .small-container{
-	max-width: 1080px;
-	margin:auto;
-	padding-left:25px;
-	padding-right:25px;
-  }
-  .what{
-	height: 310px;
-  }
-  .col-4
-  {
-	flex-basis: 25%;
-	padding:10px;
-	min-width: 200px;
-	margin-bottom: 50px;
-  transition: transform 0.5s;
-  }
-  .col-4 img{
-	width: 100%;
-  
-  }
-  .title{
-	text-align: center;
-	margin: 0 auto 80px;
-	position: relative;
-	line-height: 60px;
-	color:#555;
-  }
-  .title::after{
-	content:'';
-	background: #ff523b;
-	width:80px;
-	height:5px;
-	border-radius: 5px;
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	transform: translateX(-50%);
-  }
-  h4{
-	color:#555;
-	font-weight: normal;
-  }
-  .col-4{
-	font-size: 14px;
-  }
-  .rating .fa{
-	color:#ff523b;
-  }
-  .col-4:hover{
-	transform: translateY(-5px);
-  }
-  
-  .col-2 .bg{
-  
-  padding: 50px;
-  float: right;
-  width: 100%;
-  text-align: right;
-  margin-right: 50px;
-  }
-  
-  .offer{
-	background: radial-gradient(#fff,#ffd6d6);
-	margin-top:80px;
-	padding: 30px 0;
-  
-  }
-  small{
-	float: left;
-	width: 50%;
-  text-align: left;
-  margin-left: 200px;
-	color:#555;
-  }
 body{
 	background: #f5f5f5;
 }
 
 .top_navbar{
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -482,6 +341,5 @@ padding-bottom: 200px;
     font-size: 0.9em;
   }
 }
-
 
 
