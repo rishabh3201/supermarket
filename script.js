@@ -1,33 +1,89 @@
-var li_items = document.querySelectorAll(".sidebar ul li");
-var hamburger = document.querySelector(".hamburger");
-var wrapper = document.querySelector(".wrapper");
+let menu = document.querySelector('#menu-bars');
+let navbar = document.querySelector('.navbar');
 
+menu.onclick = () =>{
+  menu.classList.toggle('fa-times');
+  navbar.classList.toggle('active');
+}
 
-li_items.forEach((li_item)=>{
-	li_item.addEventListener("mouseenter", ()=>{
-		if(wrapper.classList.contains("click_collapse")){
-			return;
-		}
-		else{
-			li_item.closest(".wrapper").classList.remove("hover_collapse");
-		}
-	})
-})
+let section = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header .navbar a');
 
-li_items.forEach((li_item)=>{
-	li_item.addEventListener("mouseleave", ()=>{
-		if(wrapper.classList.contains("click_collapse")){
-			return;
-		}
-		else{
-			li_item.closest(".wrapper").classList.add("hover_collapse");
-		}
-	})
-})
+window.onscroll = () =>{
 
+  menu.classList.remove('fa-times');
+  navbar.classList.remove('active');
 
+  section.forEach(sec =>{
 
-hamburger.addEventListener("click", () => {
-	hamburger.closest(".wrapper").classList.toggle("click_collapse");
-	hamburger.closest(".wrapper").classList.toggle("hover_collapse");
-})
+    let top = window.scrollY;
+    let height = sec.offsetHeight;
+    let offset = sec.offsetTop - 150;
+    let id = sec.getAttribute('id');
+
+    if(top >= offset && top < offset + height){
+      navLinks.forEach(links =>{
+        links.classList.remove('active');
+        document.querySelector('header .navbar a[href*='+id+']').classList.add('active');
+      });
+    };
+
+  });
+
+}
+
+document.querySelector('#search-icon').onclick = () =>{
+  document.querySelector('#search-form').classList.toggle('active');
+}
+
+document.querySelector('#close').onclick = () =>{
+  document.querySelector('#search-form').classList.remove('active');
+}
+
+var swiper = new Swiper(".home-slider", {
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  loop:true,
+});
+
+var swiper = new Swiper(".review-slider", {
+  spaceBetween: 20,
+  centeredSlides: true,
+  autoplay: {
+    delay: 7500,
+    disableOnInteraction: false,
+  },
+  loop:true,
+  breakpoints: {
+    0: {
+        slidesPerView: 1,
+    },
+    640: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+});
+
+function loader(){
+  document.querySelector('.loader-container').classList.add('fade-out');
+}
+
+function fadeOut(){
+  setInterval(loader, 3000);
+}
+
+window.onload = fadeOut;
