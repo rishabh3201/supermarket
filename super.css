@@ -240,7 +240,6 @@ padding-bottom: 500px;
 .container{
 	position: absolute;
 	top: 500px;
-	top: 400px;
 	left: 100px;
 	
 }
@@ -298,7 +297,6 @@ padding-bottom: 500px;
   }
 
 
-
 }
 
 
@@ -352,4 +350,3 @@ i{
   top: 1000px;
   background-color:hsl(240, 1%, 14%);
 }
-
