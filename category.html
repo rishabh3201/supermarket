@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Crony Supermarket categories</title>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> 
+    
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+        <!-- font awesome cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="style.css">
+    
+    </head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+
+</style>
+<body>
+
+   <header>
+   
+
+      <a href="#" class="logo"><img src="">Crony supermarket </a>
+  
+     
+  
+      <div class="icons">
+          <i class="fas fa-bars" id="menu-bars"></i>
+          <i class="fas fa-search" id="search-icon"></i>
+          
+          <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+      <input type="checkbox"  name ="" id="chk" />
+      <label for="chk" class="show-btn">
+  
+          <i class="fa fa-bars"></i>
+      </label>
+      <label for="chk" class="hide-btn">
+  
+          <i class="fa fa-times"></i>
+      </label>
+      <div class="sidebar">
+  <ul>
+     <li>
+          <a href="#">
+              <span class="icon"><i class="fas fa-home"></i></span>
+              <span class="text">Home</span>
+          </a>
+      </li>
+      <li>
+          <a href="category.html">
+              <span class="icon"><i class="fas fa-list-alt"></i></span>
+              <span class="text">Categories</span>
+          </a>
+      </li>
+  <li>
+  <a href="#">
+   <span class="icon"><i class="fas fa-gift"></i></span>
+   <span class="text">Offers</span>
+  </a>
+  </li>
+      <li>
+          <a href="#">
+              <span class="icon"><i class="far fa-heart"></i></span>
+              <span class="text">wishlist</span>
+          </a>
+      </li>
+      <li>
+          <a href="new.html">
+              <span class="icon"><i class="fas fa-user"></i></span>
+              <span class="text">Account</span>
+          </a>
+      </li>
+      <li>
+          <a href="#">
+              <span class="icon"><i class="fas fa-cog"></i></span>
+              <span class="text">Settings</span>
+          </a>
+      </li>
+  <li>
+  <a href="#">
+   <span class="icon"><i class="fas fa-hands-helping"></i></span>
+   <span class="text">Help</span>
+  </a>
+  </li>
+  <li>
+  <a href="#">
+   <span class="icon"><i class="fas fa-address-book"></i></span>
+   <span class="text">contact us</span>
+  </a>
+  </li>
+  
+  </ul>
+    
+      </div>
+
+
+
+  </header>
+    
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+<div class="main">
+
+ <!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <a href="subcat1.html"><img src="008.jpg"></a>
+</div>
+
+    <div class="title">
+        <h1>
+            Dairy And Bakery</h1>
+    
+
+</div>
+
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="chips.png">
+</div>
+<div class="title">
+ <h1>
+Snacks </h1>
+</div>
+
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="cola.webp">
+</div>
+<div class="title">
+ <h1>
+coldrinks and beverages</h1>
+</div>
+
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="homecare.jpg">
+</div>
+<div class="title">
+ <h1>
+Home Care </h1>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="rice.webp">
+</div>
+<div class="text">
+ <h1>
+Staples</h1>
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="aaa.webp">
+</div>
+<div class="title">
+ <h1>
+Personal care and hygiene</h1>
+</div>
+
+</div>
+<!--cards -->
+
+</div>
+
+<footer class="text-gray-600 body-font">
+    <div class="containeri px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <a class="flexi title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+          <span class="ml-3 text-xl">Crony Super Market</span>
+        </a>
+        <p class="mt-2 text-sm text-gray-500">This is an official website for crony supermarket.Designed and Develop by Rishabh Bisht</p>
+      </div>
+      <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Beverages</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Snacks & Branded Foods</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Home Care</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Personal Care</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CUSTOMER SERVICES</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a href="about.html" class="text-gray-600 hover:text-gray-800">About Us</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">FAQ</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Terms and conditions</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Cancellation and return policy</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CONNECT WITH US</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a href="https://www.instagram.com/_rishabh_bisht/" class="text-gray-600 hover:text-gray-800">Instagram</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/Rishabh93199480" class="text-gray-600 hover:text-gray-800">Twitter</a>
+            </li>
+            <li>
+              <a href="cronysupermart6@gmail.com" class="text-gray-600 hover:text-gray-800">Mail</a>
+            </li>
+          </nav>
+        </div>
+        
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">OUR TEAM</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a href="owner.html" class="text-gray-600 hover:text-gray-800">Owner</a>
+            </li>
+            <li>
+              <a href="manager.html" class="text-gray-600 hover:text-gray-800">Manager</a>
+            </li>
+            <li>
+              <a href="Delivery Boy.html" class="text-gray-600 hover:text-gray-800">Delivery Boy</a>
+            </li>
+            <li>
+              <a href="developer.html" class="text-gray-600 hover:text-gray-800">Develops</a>
+            </li>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- footer section ends -->
+
+<!-- loader part  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
