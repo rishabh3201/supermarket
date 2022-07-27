@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
+
+
+img{
+    border-style:none;
+}
+
 :root{
     --green:#27ae60;
     --black:#192a56;
@@ -791,6 +797,7 @@ a i{
     }
 .header{
     display: none;
+
  }
 
  }
@@ -886,3 +893,7 @@ a i{
         display: none;
     }
 }
+
+ }
+
+

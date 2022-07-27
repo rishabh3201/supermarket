@@ -30,7 +30,7 @@ body{
 	left: 0;
 	width: 100%;
 	height: 60px;
-	background: #fff;
+	background: #ff8282;
 	box-shadow: 1px 0 2px rgba(0,0,0,0.125);
 	display: flex;
 	align-items: center;
@@ -103,14 +103,14 @@ body{
 	left: 0;
 	width: 250px;
 	height: 57%;
-	background: #005faf;
+	background: #f3f3f0;
 }
 
 .sidebar ul li a{
 	display: block;
 	padding: 12px 25px;
-	border-bottom: 1px solid #0e94d4;
-	color: #0e94d4;
+	border-bottom: 1px solid #000000;
+	color: #000000a1;
 	transition: all 0.2s ease;
 }
 
@@ -284,11 +284,7 @@ padding-bottom: 200px;
 }
 .container{
 	position: absolute;
-
-	top: 500px;
-
 	top: 400px;
-
 	left: 100px;
 	
 }
@@ -344,63 +340,6 @@ padding-bottom: 200px;
   .slider .slide .info p{
     font-size: 0.9em;
   }
-
-
 }
-
-
-.search-box{
-  position: relative;
-right: 200px;
-width: 800px;
-height: 65px;
-
-}
-.search-box input{
-  width:100%;
-  height: 40px;
-  border: none;
-  outline: none;
-  background:#2c2b29;
-  border-radius: 30px;
-  color:gray;
-  font-size: 16px;
-  padding-left: 5px;
-  padding-right: 40px;
-  text-align: center;
-   
-}
-.search-box button{
-  cursor: pointer;
-  width:40px;
-  height: 40px;
-  border-radius: 30px;
-  border:none;
-  position: absolute;
-  top:0;
-  right: 0;
-  transform: scale(0.9);
-  background: green;
-  color: #fff;
-}
-
-#chk1{
- 
-  display: none;
-   
-   
-}
-i{
-  color: #fff;
-  cursor: pointer;
-}
-.containeri{
-  position:relative;
-  top: 1000px;
-  background-color:hsl(240, 1%, 14%);
-}
-
-}
-
 
 
